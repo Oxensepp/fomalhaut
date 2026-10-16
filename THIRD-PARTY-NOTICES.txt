@@ -1,0 +1,297 @@
+Fomalhaut (foo_fomalhaut) - third-party notices
+
+Fomalhaut is inspired by Cthugha and based on its ideas and algorithms. It also contains the
+following third-party software. Their licenses apply to the respective parts only; Fomalhaut itself
+is covered by LICENSE.txt.
+
+====================================================================================================
+Cthugha (MS-DOS / Windows 3.1 version 5.3, Cthugha98)
+Kevin "Zaph" Burfitt, Torps Productions
+====================================================================================================
+
+Cthugha - Audio Seeded Image Processing
+Zaph, Digital Aasvogel Group, Torps Productions 1993-1995
+
+Copyright Information:
+======================
+
+Some parts of the source are from the public domain and are not
+copyrighted.
+
+Some parts of the source bear explicit copyright notices from the
+author and are subject to the conditions listed there by the author.
+
+The remainder of the source (not already public domain, no explicit
+author's copyright notice) is Copyright 1995 by Torps Productions
+(a loosely associated and ever-growing group of fanatic programmers).
+
+The source code may be copied freely and may be used in other programs
+under the following conditions:
+It may not be used in a commercial program without prior permission.
+Please credit the author (in general, credit Cthugha and Torps
+Productions) as the source of the code.
+
+This copyright notice is grafted from the Fractint copyright notice.
+
+
+Modifying the code:
+===================
+
+Feel free to modify this source code, HOWEVER, please send any working
+changes/fixes to me (zaph@torps.apana.org.au) for inclusion in future
+versions of the code.
+
+Distributing the code:
+======================
+
+Feel free to distribute this code, as long as it is complete and contains
+all copyright information that was included in the original.
+
+Legal Issues:
+=============
+
+What legal issues ???
+
+Come on guys, this is for *fun*, get on with it, make it great, make us
+all famous!!!
+
+												zaph, 12May94
+
+====================================================================================================
+Cthugha 5.3 extras (supplemental files cthug53x)
+====================================================================================================
+
+Palettes (MAP files) and pictures (PCX files) distributed with Cthugha 5.3 by Torps Productions.
+
+"Images and Colors for Cthugha" vol. 1
+(C) 1989, 1993-1994 by Dmitry Altukhov (Dreamwalker / ORBiS TERTiUS), Moscow, Russia
+  cryogenc.pcx  "Cryogenic Device"   (C) 1993-94 Dmitry Altukhov
+  cryoheat.pcx  "Cryogenic Heat"     (C) 1994 Dmitry Altukhov
+  spheres.pcx   "Spherical Travel"   (C) 1994 Dmitry Altukhov
+  hunter.pcx    "The Hunter"         (C) 1989 Dmitry Altukhov
+  Palettes gamma1, green, green1, heat, heat1, ice, ltgrn, sun, sun1: from FractInt, Improcess and by
+  Dmitry Altukhov ("Palettes are not copyrighted, probably.")
+
+'chromatic' color map by Todd Hedenstrom (built-in palette 2 of Cthugha).
+
+Translation tables (TAB files) from Cthugha 5.3 and its extras (TAB.ZIP): hurr, rotate, smoke, space, spir-out,
+vortex. The TAB.ZIP table generators (MKSPACE, MKSMOKE, MKHURICN, MIX_TABS) are by Ofer Faigon, Sep 1994.
+
+====================================================================================================
+Cthugha-L (Linux version 1.4)
+Harald Deischinger
+====================================================================================================
+
+Includes ports of the translation table generators of Cthugha-L (tab/cmd_*.c): cmd_gentable (based on
+mkgentable by Zaph), cmd_huricn, cmd_smoke and cmd_space (based on the programs by Ofer Faigon, Sep 1994),
+cmd_bighalfwheel ("Krusty Wheel 1"), cmd_downspiral ("Krusty Wheel 2") and cmd_randswirls; table stretching
+(stretch_trans) from Rus Maxham. The picture zaph.pcx of Cthugha-L (pcx/) is included as ZAPH-L.PCX.
+
+Copyright Information: 
+---------------------- 
+  
+ Some parts of the source are from the public domain and are not 
+ copyrighted. 
+  
+ Some parts of the source bear explicit copyright notices from the 
+ author and are subject to the conditions listed there by the author. 
+  
+ The remainder of the source (not already public domain, no explicit 
+ author's copyright notice) is Copyright 1995-97 by Harald Deischinger.
+ 
+ The source code may be copied freely and may be used in other programs 
+ under the following conditions: 
+  It may not be used in a commercial program without prior permission. 
+  Please credit the author (in general, credit Cthugha, Torps 
+  Productions and Harald Deischinger) as the source of the code. 
+  
+ This copyright notice is grafted from the Fractint copyright notice.
+
+Shareware 
+---------
+
+* Free for non-commercial use  -  Send a Postcard to show your appreciation 
+  If you have more money than you know what to do with, then send me a CD 
+  of something you like listening to with Cthugha on the screen... 
+ 
+  Really, there's no point sending me a cheque for $20-$30, because its going 
+  to cost to get it cashed anyway, and I'd probably go out and buy a CD with 
+  the money, so - if you want to send more than a postcard,  why not just send 
+  a CD instead ?? 
+ 
+* Commercial users register for US$50 (you can also use another
+  currency) or send 2 CDs.
+ 
+* If you can't afford to register send a video tape (PAL preferably) of 
+  public performance or send a postcard :-) 
+ 
+* If you forward this program on to friends, make it available on a 
+  BBS, etc please include all the document (un-adulterated). 
+ 
+* If you run a shareware house/store, the disk you sell this program on 
+  is not allowed to be sold for more than US$20. 
+ 
+
+DISCLAIMER
+----------
+
+This software is provided 'as is' without warranty of any kind implied or
+expressed. 
+
+
+
+Modifying the code: 
+------------------- 
+ 
+ Feel free to modify this source code, HOWEVER, please send any working 
+ changes/fixes to me (deischi@geocities.com) for inclusion in 
+ future versions of the code. 
+ 
+
+Distributing the code: 
+---------------------- 
+ 
+ Feel free to distribute this code, as long as it is complete and contains 
+ all copyright information that was included in the original. 
+ 
+ Please do *NOT* distribute your own version of Cthugha. Instead, send 
+ me the changes, and I will make it an official release. 
+
+ 
+Legal Issues: 
+------------- 
+ 
+ What legal issues ??? 
+ 
+ Come on guys, this is for *fun*, get on with it, make it great, make us 
+ all famous!!!
+
+====================================================================================================
+Cthugha-4-Winamp (version 1.50)
+Krunoslav Pisacic, 1998
+====================================================================================================
+
+The Cthugha-4-Winamp mode of Fomalhaut is a re-implementation of the Winamp visualization plug-in
+Cthugha-4-Winamp 1.50 (also released for ModPlug); it includes its palette files (maps/*.map), its 3D
+letters (objs/*.obj) and its picture ngc2024a_cthugha.gif (converted to PCX).
+Credit from the plug-in: "Based on Cthugha for DOS & Linux ... Initial DOS version made by Kevin
+Burfitt - Zaph, and a lot of others." Beat detection in the plug-in: modifications by Justin
+Frankel at Nullsoft.
+
+License (from vis_sh.txt):
+
+You can use this program freely for personal use. However, if 
+you use it in performances, commercially, or you just want to 
+support development of a plugin you can send $10 (or any 
+amount you feel appropriate) to:
+
+	Krunoslav Pisacic
+	Raciceva 14
+	10000 - Zagreb
+	Croatia - Europe
+
+====================================================================================================
+foobar2000 SDK
+https://www.foobar2000.org/SDK
+====================================================================================================
+
+foobar2000 2.x SDK
+Copyright (c), Peter Pawlowski
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+Neither the name of the author nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Note that separate less restrictive licenses apply to the included 'pfc' and 'libPPUI' libraries. See license files included in respective folders for details.
+
+====================================================================================================
+pfc (part of the foobar2000 SDK)
+====================================================================================================
+
+Copyright (C) Peter Pawlowski
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation is
+   appreciated but not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+====================================================================================================
+libPPUI (part of the foobar2000 SDK)
+====================================================================================================
+
+Copyright (C) Peter Pawlowski
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation is
+   appreciated but not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+====================================================================================================
+Columns UI SDK
+https://github.com/reupen/columns_ui-sdk
+====================================================================================================
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+====================================================================================================
+Windows Template Library (WTL)
+https://github.com/Win32-WTL/WTL
+====================================================================================================
+
+Microsoft Public License (MS-PL)
+
+This license governs use of the accompanying software. If you use the software, you
+accept this license. If you do not accept the license, do not use the software.
+
+1. Definitions
+The terms "reproduce," "reproduction," "derivative works," and "distribution" have the
+same meaning here as under U.S. copyright law.
+A "contribution" is the original software, or any additions or changes to the software.
+A "contributor" is any person that distributes its contribution under this license.
+"Licensed patents" are a contributor's patent claims that read directly on its contribution.
+
+2. Grant of Rights
+(A) Copyright Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free copyright license to reproduce its contribution, prepare derivative works of its contribution, and distribute its contribution or any derivative works that you create.
+(B) Patent Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free license under its licensed patents to make, have made, use, sell, offer for sale, import, and/or otherwise dispose of its contribution in the software or derivative works of the contribution in the software.
+
+3. Conditions and Limitations
+(A) No Trademark License- This license does not grant you rights to use any contributors' name, logo, or trademarks.
+(B) If you bring a patent claim against any contributor over patents that you claim are infringed by the software, your patent license from such contributor to the software ends automatically.
+(C) If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.
+(D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.
+(E) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.

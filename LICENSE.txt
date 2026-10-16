@@ -1,0 +1,22 @@
+Fomalhaut (foo_fomalhaut)
+Copyright (c) 2026 Audio Lens. All rights reserved.
+
+Fomalhaut is a music visualisation inspired by Cthugha (c) 1993-1998 Kevin "Zaph"
+Burfitt, Torps Productions, and Cthugha-L (c) 1995-1998 Harald Deischinger. It is
+based on the ideas and algorithms of Cthugha, used under the Cthugha source license
+(see THIRD-PARTY-NOTICES.txt), and is not affiliated with the Cthugha authors.
+
+The component is free of charge and may not be used commercially. You may use it
+and pass on copies of the unmodified component package (the .fb2k-component file,
+including this license) to others, provided that no fee is charged for it.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+This component includes third-party software that is licensed under its own
+terms; see THIRD-PARTY-NOTICES.txt.
