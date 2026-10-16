@@ -8,7 +8,7 @@ The sound is drawn into an image that burns, flows and mirrors itself from frame
 
 Default UI and Columns UI · 64 and 32 bit · fullscreen on one or more monitors · free
 
-**[Download the latest version](../../releases/latest)**
+**[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut)
 
 ![Fomalhaut in foobar2000](docs/screenshots/readme/hero.jpg)\
 *Two Fomalhaut panels on top of the layout.*
