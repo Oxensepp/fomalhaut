@@ -1,10 +1,11 @@
 Fomalhaut (foo_fomalhaut)
 Copyright (c) 2026 Audio Lens. All rights reserved.
 
-Fomalhaut is a music visualisation inspired by Cthugha (c) 1993-1998 Kevin "Zaph"
-Burfitt, Torps Productions, and Cthugha-L (c) 1995-1998 Harald Deischinger. It is
-based on the ideas and algorithms of Cthugha, used under the Cthugha source license
-(see THIRD-PARTY-NOTICES.txt), and is not affiliated with the Cthugha authors.
+Fomalhaut is a retro music visualisation heavily inspired by Cthugha (c)
+1993-1998 Kevin "Zaph" Burfitt, Torps Productions, and Cthugha-L (c) 1995-1998
+Harald Deischinger. It is based on the ideas and algorithms of Cthugha, used
+under the Cthugha source license (see THIRD-PARTY-NOTICES.txt), and is not
+affiliated with the Cthugha authors.
 
 The component is free of charge and may not be used commercially. You may use it
 and pass on copies of the unmodified component package (the .fb2k-component file,
