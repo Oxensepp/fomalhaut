@@ -2,12 +2,14 @@
 
 Retro music visualisations inspired by [Cthugha](https://en.wikipedia.org/wiki/Cthugha_(software)) and the
 [Atari Video Music](https://en.wikipedia.org/wiki/Atari_Video_Music) for [foobar2000](https://www.foobar2000.org)
+and [Winamp](https://www.winamp.com) / [WACUP](https://getwacup.com)
 
 The sound is drawn into an image that burns, flows and mirrors itself from frame to frame: Cthugha's
 "audio seeded image processing", was rebuilt effect for effect from the original programs. And the first music
 visualiser for the home, Atari's Video Music C240 from 1977, comes back as a simulation of its circuit.
 
-Default UI and Columns UI · 64 and 32 bit · fullscreen on one or more monitors · free
+Default UI and Columns UI · 64 and 32 bit · fullscreen on one or more monitors · free · also as a Winamp / WACUP
+plug-in
 
 **[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut)
 
@@ -76,6 +78,7 @@ Thanks to Robert J. Brown for being a pioneer in music visualisation. He made th
 ## Requirements
 
 - foobar2000 2.0 or newer, 64-bit or 32-bit
+- or Winamp 5.x / WACUP, 32-bit (the 64-bit WACUP does not load third-party plug-ins yet)
 - Windows 10 or 11
 
 ## Installation
@@ -87,6 +90,26 @@ Thanks to Robert J. Brown for being a pioneer in music visualisation. He made th
      Visualisation → Fomalhaut*.
    - **Columns UI:** *Preferences → Columns UI → Layout*, add *Fomalhaut* (category *Visualisations*).
 4. Right-click the panel and choose a mode under *Mode*. Play music and enjoy.
+
+## Winamp and WACUP
+
+The same modes as a visualisation plug-in for Winamp and WACUP (32-bit).
+
+1. Download `vis_fomalhaut-1.1.0.zip` from the [release 1.1.0](../../releases/tag/v1.1.0).
+2. Close Winamp / WACUP and copy `vis_fomalhaut.dll` into its *Plugins* folder.
+3. *Preferences → Plug-ins → Visualisation*: select *Fomalhaut*, choose the mode under *Plug-in module* and press
+   *Start* (or Ctrl+Shift+K).
+
+- **Portable WACUP:** allow third-party plug-ins first under *Preferences → Advanced → Portable Mode*.
+- To start the visualisation together with the player, tick *Run the plug-in(s) on start-up* in the
+  Visualisation menu.
+- The window sits in the skin like MilkDrop. Keys and the right-click menu work as in foobar2000; keys Fomalhaut
+  does not use (Z, X, C, V, B, arrows …) go to the player. The last mode chosen in the menu is remembered.
+- Settings: *Configure* in the Winamp preferences or *Preferences…* in the right-click menu – the same pages as in
+  foobar2000 on tabs.
+- Winamp passes only short pieces of the sound to a visualisation (576 values, about 60 times a second).
+  Fomalhaut joins them into a continuous stream and fills small gaps, so the Atari Video Music and Cthugha98
+  partly see repeated sound. In foobar2000 every mode gets the full sound.
 
 ## Usage
 
@@ -128,7 +151,8 @@ never or always.
 - **CRT**: off, RGB monitor (sharp) or TV (soft colours). Default: TV for Atari Video Music, off for the others.
 
 *Preferences → Visualisations → Fomalhaut → Atari Video Music*: the buttons and knobs of the front panel, and
-whether the front panel slides in.
+whether the front panel slides in. Each panel keeps its own buttons and knobs; the preferences show and change the
+panel used last, and new panels start with its settings.
 
 ## True to the originals
 
@@ -184,8 +208,8 @@ simulation, not affiliated with or endorsed by them. BTW: Fomalhaut is the home 
 
 ## License
 
-Copyright (c) 2026 Audio Lens. All rights reserved. The component is free of charge and may not be used
-commercially; the unmodified package may be passed on. See [LICENSE.txt](LICENSE.txt). This repository contains
+Copyright (c) 2026 Audio Lens. All rights reserved. Fomalhaut is free of charge; the unmodified packages may be
+passed on, as long as no fee is charged for them. See [LICENSE.txt](LICENSE.txt). This repository contains
 documentation and releases only; the source code is not published.
 
 The licenses of Cthugha, Cthugha-L and Cthugha-4-Winamp and of the foobar2000 SDK, pfc, libPPUI, the Columns UI SDK

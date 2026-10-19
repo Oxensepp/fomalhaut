@@ -1,8 +1,11 @@
-Fomalhaut (foo_fomalhaut) - third-party notices
+Fomalhaut (foo_fomalhaut, vis_fomalhaut) - third-party notices
 
 Fomalhaut is inspired by Cthugha and based on its ideas and algorithms. It also contains the
 following third-party software. Their licenses apply to the respective parts only; Fomalhaut itself
 is covered by LICENSE.txt.
+
+The Winamp plug-in (vis_fomalhaut.dll) contains the Cthugha parts and WTL only; the foobar2000
+SDK, pfc, libPPUI and the Columns UI SDK are part of the foobar2000 component only.
 
 ====================================================================================================
 Cthugha (MS-DOS / Windows 3.1 version 5.3, Cthugha98)

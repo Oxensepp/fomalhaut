@@ -1,4 +1,4 @@
-Fomalhaut (foo_fomalhaut)
+Fomalhaut (foo_fomalhaut for foobar2000, vis_fomalhaut for Winamp)
 Copyright (c) 2026 Audio Lens. All rights reserved.
 
 Fomalhaut is a retro music visualisation heavily inspired by Cthugha (c)
@@ -7,9 +7,10 @@ Harald Deischinger. It is based on the ideas and algorithms of Cthugha, used
 under the Cthugha source license (see THIRD-PARTY-NOTICES.txt), and is not
 affiliated with the Cthugha authors.
 
-The component is free of charge and may not be used commercially. You may use it
-and pass on copies of the unmodified component package (the .fb2k-component file,
-including this license) to others, provided that no fee is charged for it.
+Fomalhaut is free of charge. You may use it and pass on copies of the
+unmodified packages (the .fb2k-component file and the vis_fomalhaut ZIP file,
+each including this license) to others, provided that no fee is charged for
+them.
 
 THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,5 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 
-This component includes third-party software that is licensed under its own
+Fomalhaut includes third-party software that is licensed under its own
 terms; see THIRD-PARTY-NOTICES.txt.
