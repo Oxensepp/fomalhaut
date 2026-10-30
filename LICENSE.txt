@@ -1,5 +1,5 @@
 Fomalhaut (foo_fomalhaut for foobar2000, vis_fomalhaut for Winamp)
-Copyright (c) 2026 Audio Lens. All rights reserved.
+Copyright (c) 2026 Stefan Eireiner. All rights reserved.
 
 Fomalhaut is a retro music visualisation heavily inspired by Cthugha (c)
 1993-1998 Kevin "Zaph" Burfitt, Torps Productions, and Cthugha-L (c) 1995-1998

@@ -4,7 +4,7 @@ Fomalhaut is inspired by Cthugha and based on its ideas and algorithms. It also 
 following third-party software. Their licenses apply to the respective parts only; Fomalhaut itself
 is covered by LICENSE.txt.
 
-The Winamp plug-in (vis_fomalhaut.dll) contains the Cthugha parts and WTL only; the foobar2000
+The Winamp plug-in (vis_fomalhaut.dll) contains the parts of its modes and WTL only; the foobar2000
 SDK, pfc, libPPUI and the Columns UI SDK are part of the foobar2000 component only.
 
 ====================================================================================================
@@ -194,6 +194,20 @@ amount you feel appropriate) to:
 	Croatia - Europe
 
 ====================================================================================================
+VSG (version 1.0, VGA version)
+Neven Pintaric, 2000
+====================================================================================================
+
+The VSG mode of Fomalhaut is based on VSG 1.0 ("View sounds in graphics"), a
+DOS program by Neven Pintaric. Six of its ten effects are re-implemented from
+the program; the other effects, the colours and the palettes are additions of
+Fomalhaut. The mode contains no code or data of the original program.
+
+From the original README.TXT: "This version of VSG if [sic] Public Domain.
+You can give this program to anyone, put it on your site or BBS, as long as
+it is unchanged and free."
+
+====================================================================================================
 foobar2000 SDK
 https://www.foobar2000.org/SDK
 ====================================================================================================
@@ -298,3 +312,106 @@ A "contributor" is any person that distributes its contribution under this licen
 (C) If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.
 (D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.
 (E) The software is licensed "as-is." You bear the risk of using it. The contributors give no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.
+
+====================================================================================================
+ft2-clone (Fasttracker II clone)
+Olav "8bitbubsy" Sorensen - https://github.com/8bitbubsy/ft2-clone
+====================================================================================================
+
+The Fasttracker II mode of the tracker visualisation is modelled on ft2-clone 2.26 and 1.99: pattern,
+scope and about-screen drawing (starfields, waving logo), palette presets and tables are ported from
+its source code, and its graphics data (fonts, about logos) is included.
+
+Code and the about-screen logos of ft2-clone (ft2AboutLogo.bmp) are licensed under the BSD 3-Clause
+License:
+
+BSD 3-Clause License
+
+Copyright (c) 2016-2026, Olav Sørensen
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The remaining graphics of ft2-clone (fonts, user interface, the original FT2 about logo) were made by
+Magnus "Vogue" Hogdahl and are licensed by him under Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+These graphics, as included in Fomalhaut (also as the screen template built from them), remain under
+CC BY-NC-SA 4.0. Fasttracker II: Magnus "Vogue" Hogdahl & Fredrik "Mr.H" Huss, Triton Productions.
+
+====================================================================================================
+Impulse Tracker
+Jeffrey Lim - source code: https://github.com/herrnst/impulsetracker
+(mirror of the original repository bitbucket.org/jthlim/impulsetracker)
+====================================================================================================
+
+The Impulse Tracker mode of the tracker visualisation is modelled on Impulse Tracker 2.14: the info
+page (text mode screen, windows and boxes, track views, note dots, channel details, status line) is
+ported from its source code, and its character definitions, small numerals and palette presets are
+included. The source code is licensed under the BSD 3-Clause License:
+
+Copyright © 2014, Jeffrey Lim. All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+====================================================================================================
+Pictures from Wikimedia Commons (edited)
+====================================================================================================
+
+The pictures were cropped, converted to 256 colours with a new palette and, for one of them, painted
+over (implant and laser). The edited pictures are licensed under the same license as their original.
+
+- Portrait, San Diego Comic-Con 2019: "Patrick Stewart by Gage Skidmore 2.jpg" by Gage Skidmore,
+  CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/
+  https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg
+- Star on the Hollywood Walk of Fame: "Patrick Stewart star Walk of Fame.jpg" by J. Budke,
+  CC BY-SA 2.0 DE, https://creativecommons.org/licenses/by-sa/2.0/de/
+  https://commons.wikimedia.org/wiki/File:Patrick_Stewart_star_Walk_of_Fame.jpg
+- Replica of the Ressikan flute by Morgan Gendel: "2014-05-26 Replica of 'Ressikan flute' by Morgan
+  Gendel IMG 1458.jpg" by Eckhard Henkel, CC BY-SA 3.0 DE, https://creativecommons.org/licenses/by-sa/3.0/de/
+  https://commons.wikimedia.org/wiki/File:2014-05-26_Replica_of_%27Ressikan_flute%27_by_Morgan_Gendel_IMG_1458.jpg
