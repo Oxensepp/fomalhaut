@@ -13,7 +13,7 @@ screens of 18 classic trackers come alive and play along with your music.
 Default UI and Columns UI · 64 and 32 bit · fullscreen across one or more monitors · free · also available as a Winamp / WACUP
 plug-in
 
-**[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut)
+**[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut) · [Video (YouTube)](https://youtu.be/Ecsgio12U5g)
 
 ![Fomalhaut in foobar2000](docs/screenshots/readme/hero.jpg)\
 *Two Fomalhaut panels on top of the layout.*
