@@ -1,19 +1,21 @@
 # Fomalhaut
 
 Retro music visualisations inspired by [Cthugha](https://en.wikipedia.org/wiki/Cthugha_(software)), the
-[Atari Video Music](https://en.wikipedia.org/wiki/Atari_Video_Music) and the music trackers of the Amiga, DOS, C64
-and CPC for [foobar2000](https://www.foobar2000.org) and [Winamp](https://www.winamp.com) /
-[WACUP](https://getwacup.com)
+[Atari Video Music](https://en.wikipedia.org/wiki/Atari_Video_Music), the music trackers of the Amiga, DOS, C64
+and CPC and the [Compact Cassette](https://en.wikipedia.org/wiki/Cassette_tape) for
+[foobar2000](https://www.foobar2000.org), [Winamp](https://www.winamp.com) / [WACUP](https://getwacup.com) and
+[AIMP](https://www.aimp.ru)
 
 Sound is drawn into an image that burns, flows and mirrors itself from frame to frame: Cthugha's
 "audio seeded image processing", rebuilt effect for effect from the original programs. The very first home music
-visualiser, Atari's Video Music C240 from 1977, returns as a true-to-life circuit simulation. And the
-screens of 18 classic trackers come alive and play along with your music.
+visualiser, Atari's Video Music C240 from 1977, returns as a true-to-life circuit simulation. The
+screens of 18 classic trackers come alive and play along with your music. And your playlist turns into a cassette
+that runs in a working tape deck of the 70s, 80s or 90s.
 
-Default UI and Columns UI · 64 and 32 bit · fullscreen across one or more monitors · free · also available as a Winamp / WACUP
-plug-in
+Default UI and Columns UI · 64 and 32 bit · fullscreen across one or more monitors · free · also available as a
+plug-in for Winamp / WACUP and AIMP
 
-**[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut) · [Video (YouTube)](https://youtu.be/Ecsgio12U5g)
+**[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut) · Videos: [1.3 – Cassette mode and AIMP](https://youtu.be/P4ajUVvxVA4) · [1.2 – presentation](https://youtu.be/Ecsgio12U5g)
 
 ![Fomalhaut in foobar2000](docs/screenshots/readme/hero.jpg)\
 *Two Fomalhaut panels on top of the layout.*
@@ -29,6 +31,7 @@ plug-in
 | Atari Video Music C240 (4:3) | The Atari Video Music C240 (1977): diamonds, holes and rings in the colours of the music, complete with its front panel |
 | Tracker (Amiga, DOS, Windows, C64, CPC) | 18 music trackers from Ultimate Soundtracker (1987) to Arkos Tracker 3, with screens playing along to your music |
 | VSG+ DOS (640 × 480) | VSG 1.0 VGA for DOS by Neven Pintaric (2000): 20 effects in QuickBASIC style and 16 colour palettes |
+| Compact Cassette (flexible) | The Compact Cassette (Philips, 1963): your playlist as a running cassette, blank or printed from the album cover, in seven working tape decks of the 70s, 80s and 90s |
 | Credits | The credits for all modes roll by, each section running its own mode in the background |
 | Mix | Cycles through all of the above (except Credits) with a short crossfade between them |
 
@@ -97,7 +100,8 @@ analyzers react to the audio, the track title appears in the song name field, an
   ProTracker 2.1A, OctaMED Professional 4.0, Oktalyzer 1.57, AHX 2.3d
 - **DOS:** Composer 669 1.3, Scream Tracker 3.21, Fasttracker II, Impulse Tracker 2.14
 - **Windows:** ModPlug Tracker 1.16
-- **C64:** SoundMonitor 1.1, JCH Editor 3.04 · **Amstrad CPC:** Soundtracker DMA 2.0, Arkos Tracker 3
+- **C64:** SoundMonitor 1.1, JCH Editor 3.04
+- **Amstrad CPC:** Soundtracker DMA 2.0, Arkos Tracker 3
 - Press P to cycle through colour schemes, starting with the original and followed by palettes from the program and its siblings. Press D
   to switch between different tracker views (pattern editor, instruments, scopes …).
 - *Preferences → Mode options*: scroll rows at the estimated tempo of the music or at a fixed 125 BPM; cycle through trackers in order or
@@ -119,6 +123,31 @@ exact look and expands it into VSG+ with 20 effects:
   and NES, and more.
 - Automatically switches effects on a beat after about 20 seconds (whereas the original required the arrow keys).
 
+### Compact Cassette
+
+![Compact Cassette](docs/screenshots/readme/tape.jpg)\
+*Bought cassettes printed from the album cover – Album Print, Album Tracklist, Album Art (top left) – and blank
+cassettes from the 70s to the 90s, optional with mechanical and digital counters.*
+
+The idea is, that your playlist becomes a cassette: the tracks of an album (or of the playlist) are laid out on sides A and B of a
+C46 … C120, the reels turn with real tape physics, the windings grow and shrink, the counter runs, and at the end
+of side A the cassette is turned over.
+
+- **Blank cassettes:** 21 types from the 70s to the 90s in ten colours each, with handwritten label, tape type I–IV
+  and the occasional wobbly winding. Press Space for the next type and P for the colours.
+- **Bought cassettes from the album cover:** Album Print, Album Tracklist, Album Tint and Album Art are printed in
+  the colours or with the picture of the cover, with artist, album, year and the titles of the side.
+![Tape decks](docs/screenshots/readme/tape-decks.jpg)\
+*All currently included tape decks from the 70s to the 90s. Some are available in several colors / finishes.*
+
+- **Tape decks:** a 70s three-head deck, an 80s studio deck with real-time counter, locator and loop, an 80s
+  ghetto blaster, an 80s East German radio recorder, a 90s closed-loop deck and a 90s three-head deck. Their
+  buttons, switches and knobs work: play, pause, stop, rewind and fast forward control the player, the volume and
+  balance knobs follow it, counters can be reset and memories set. Press W for the next deck, F for its finish and
+  F2 for a short description of what it can do.
+- *Preferences → Mode options → Tape*: cassette, colours, deck, how the sides are filled and the colour of digital
+  counters.
+
 ### Credits
 
 ![Credits](docs/screenshots/readme/credits.jpg)\
@@ -131,6 +160,7 @@ screen, the background smoothly crossfades to that exact mode or tracker.
 
 - foobar2000 2.0 or newer, 64-bit or 32-bit
 - or Winamp 5.x / WACUP, 32-bit (64-bit WACUP does not support third-party plug-ins yet)
+- or AIMP 5.x, 64-bit or 32-bit (also runs with the AIMP 6 beta)
 - Windows 10 or 11
 
 ## Installation
@@ -163,6 +193,31 @@ All modes are also available as a visualisation plug-in for Winamp and WACUP (32
   Fomalhaut stitches them into a continuous stream and bridges small gaps. As a result, Atari Video Music and Cthugha98
   occasionally see repeated audio data in Winamp, whereas in foobar2000 every mode receives the complete, uninterrupted audio stream.
 
+## AIMP
+
+All modes are also available as a visualisation plug-in for AIMP 5 (64-bit and 32-bit); it already runs with the
+AIMP 6 beta as well.
+
+![AIMP, foobar2000 and WACUP](docs/screenshots/readme/players.jpg)\
+*Fomalhaut in AIMP (90s three-head deck), foobar2000 (a Cthugha mode) and WACUP (Fasttracker II) side by side.*
+
+1. Download `aimp_fomalhaut-<version>.aimppack` from the [releases](../../releases/latest).
+2. Double-click the file, or in AIMP open *Preferences → Plugins*, click *Install* and choose it. AIMP picks the
+   right version (64 or 32 bit). Tick *Fomalhaut* in the list, click *OK* and restart AIMP.
+   (The `.aimppack` is a ZIP archive in AIMP's add-on format; for a manual install see `README.txt` inside.)
+3. Right-click the visualisation area and pick one of the *Fomalhaut: …* entries (one per mode).
+
+- **Mouse:** left click = next effect (on the tape decks: buttons, switches and knobs, also by dragging and with the
+  mouse wheel), middle click = Fomalhaut menu, right click = AIMP's own menu. The control bar slides in at the top.
+- **Keys:** AIMP keeps all keys for itself. Assign Fomalhaut's commands (next effect, F, W, D, P …, lock,
+  screenshot …) to keys of your choice under *Preferences → Hotkeys*, group *Fomalhaut*.
+- **Settings:** *Preferences → Plugins → Fomalhaut* (five pages, light or dark like the skin), also via
+  *Fomalhaut settings…* in AIMP's main menu or *Preferences…* in the Fomalhaut menu.
+- AIMP draws visualisations about 32 times a second and passes only short audio chunks (512 samples per frame).
+  Fomalhaut keeps every mode running in real time and fills the gaps in the audio, so Atari Video Music and
+  Cthugha98 see more repeated audio than in Winamp. For the full frame rate, use Fomalhaut's own fullscreen window
+  (*Fullscreen* in the Fomalhaut menu).
+
 ## Usage
 
 ![Control bar](docs/screenshots/readme/control-bar.png)\
@@ -177,14 +232,15 @@ over a button (bottom).*
 | Hover at the top | Slides in the control bar: mode, previous / next, lock, effect names, palette, presets, CRT filter, screenshot, fullscreen, preferences; Cthugha modes also get a second row for flame, wave, display, palette … (matching the hotkeys) plus Cthugha98's 3dfx view |
 | Right click | Opens the context menu: next / previous effect, lock, fullscreen, screenshot, mode, palette (pick from list), presets, CRT filter, options |
 | f / w / d / p | Next flame / wave / display / palette (also resets the timer for the next automatic change) |
-| Shift+P | Previous palette (in all modes) |
+| Shift + letter | The same key backwards, in all modes (e.g. Shift+P: previous palette) |
 | t, ! | Colour table (Cthugha-4-Winamp: translation), translation table |
 | s | FFT palette flashing (DOS) / scope or analyzer (Cthugha-4-Winamp) |
 | h | Wave scale (Cthugha-4-Winamp) |
 | L | Lock: pauses automatic effect changes |
 | i | Save the current effect as a preset |
 | n | Toggle effect names on/off |
-| ? or F1 | Show keyboard shortcuts |
+| ? or F1 | Show the keys of the running mode |
+| F2 | Tape: what the deck can do, in a few lines |
 
 **Screenshot** (via the right-click menu or control bar): grabs a clean PNG at the exact panel resolution, free of
 menus, bars or effect names. Screenshots are saved with sequential numbers to your last-used folder (*Fomalhaut 001.png*,
@@ -198,7 +254,7 @@ default, never, always, or at a custom percentage of your choice, either randoml
 ## Preferences
 
 ![Preferences](docs/screenshots/readme/preferences.png)\
-*The main page with "Mode options" below it, alongside the "Modes" and "Presets" subpages.*
+*The main page, "Modes" and "Mode options" (subpages "Atari Video Music" and "Presets" not shown).*
 
 *Preferences → Visualisations → Fomalhaut*:
 
@@ -209,7 +265,9 @@ default, never, always, or at a custom percentage of your choice, either randoml
 - Top control bar (enabled by default): slides into view whenever the mouse moves into the upper quarter of the panel.
 
 *Preferences → Visualisations → Fomalhaut → Mode options*: configure Cthugha98's 3dfx view, Cthugha-L's output height and
-flashlight, Cthugha-4-Winamp's palettes, title text and 3D intro, as well as tracker tempo and playback order.
+flashlight, Cthugha-4-Winamp's palettes, title text and 3D intro, tracker tempo and playback order, and for the Compact
+Cassette the label of blank cassettes (title formatting), the colour of digital counters, the cassette, colours and deck
+new panels start with, and how the tracks are spread over the two sides.
 
 *Preferences → Visualisations → Fomalhaut → Modes*, individually configurable per mode (including whether it appears in the Mix):
 
