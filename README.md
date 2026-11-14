@@ -134,7 +134,8 @@ C46 … C120, the reels turn with real tape physics, the windings grow and shrin
 of side A the cassette is turned over.
 
 - **Blank cassettes:** 21 types from the 70s to the 90s in ten colours each, with handwritten label, tape type I–IV
-  and the occasional wobbly winding. Press Space for the next type and P for the colours.
+  and the occasional wobbly winding. Press Space for the next type and P for the colours. Titles in other scripts
+  (Chinese, Japanese, Korean, Cyrillic …) are written with the fonts of your system.
 - **Bought cassettes from the album cover:** Album Print, Album Tracklist, Album Tint and Album Art are printed in
   the colours or with the picture of the cover, with artist, album, year and the titles of the side.
 ![Tape decks](docs/screenshots/readme/tape-decks.jpg)\
@@ -196,7 +197,7 @@ All modes are also available as a visualisation plug-in for Winamp and WACUP (32
 ## AIMP
 
 All modes are also available as a visualisation plug-in for AIMP 5 (64-bit and 32-bit); it already runs with the
-AIMP 6 beta as well.
+AIMP 6 beta as well. Videos also on Vimeo: [1.3 – Cassette mode and AIMP](https://vimeo.com/1244941482) · [1.2 – presentation](https://vimeo.com/1244943326)
 
 ![AIMP, foobar2000 and WACUP](docs/screenshots/readme/players.jpg)\
 *Fomalhaut in AIMP (90s three-head deck), foobar2000 (a Cthugha mode) and WACUP (Fasttracker II) side by side.*
