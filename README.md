@@ -1,10 +1,10 @@
 # Fomalhaut
 
 Retro music visualisations inspired by [Cthugha](https://en.wikipedia.org/wiki/Cthugha_(software)), the
-[Atari Video Music](https://en.wikipedia.org/wiki/Atari_Video_Music), the music trackers of the Amiga, DOS, C64
+[Atari Video Music](https://en.wikipedia.org/wiki/Atari_Video_Music), the music trackers from the Amiga, DOS, C64
 and CPC and the [Compact Cassette](https://en.wikipedia.org/wiki/Cassette_tape) for
-[foobar2000](https://www.foobar2000.org), [Winamp](https://www.winamp.com) / [WACUP](https://getwacup.com) and
-[AIMP](https://www.aimp.ru)
+[foobar2000](https://www.foobar2000.org) on Windows and macOS, [Winamp](https://www.winamp.com) /
+[WACUP](https://getwacup.com) and [AIMP](https://www.aimp.ru)
 
 Sound is drawn into an image that burns, flows and mirrors itself from frame to frame: Cthugha's
 "audio seeded image processing", rebuilt effect for effect from the original programs. The very first home music
@@ -12,8 +12,8 @@ visualiser, Atari's Video Music C240 from 1977, returns as a true-to-life circui
 screens of 18 classic trackers come alive and play along with your music. And your playlist turns into a cassette
 that runs in a working tape deck of the 70s, 80s or 90s.
 
-Default UI and Columns UI · 64 and 32 bit · fullscreen across one or more monitors · free · also available as a
-plug-in for Winamp / WACUP and AIMP
+Windows (Default UI and Columns UI, 64 and 32 bit) and macOS (Apple silicon and Intel) · fullscreen across one
+or more monitors · free · also available as a plug-in for Winamp / WACUP and AIMP
 
 **[Download the latest version](../../releases/latest)** · [foobar2000 component page](https://www.foobar2000.org/components/view/foo_fomalhaut) · Videos: [1.3 – Cassette mode and AIMP](https://youtu.be/P4ajUVvxVA4) · [1.2 – presentation](https://youtu.be/Ecsgio12U5g)
 
@@ -36,7 +36,8 @@ plug-in for Winamp / WACUP and AIMP
 | Mix | Cycles through all of the above (except Credits) with a short crossfade between them |
 
 Each panel remembers its own mode, so you can run several panels with different modes side by side. Every mode can also be viewed
-through an optional CRT filter (RGB monitor or TV).
+through an optional CRT filter (RGB monitor, TV or studio monitor) – classic, or realistic on the GPU with beam, phosphor
+mask, afterglow, PAL/NTSC composite colour and curved glass.
 
 ### Cthugha 5.3 DOS
 
@@ -51,6 +52,9 @@ pictures.*
 
 ![Cthugha98 3dfx view](docs/screenshots/readme/cthugha98-3dfx.jpg)\
 *The optional 3dfx view of Cthugha98: the image rendered as a rotating height field, rebuilt in software.*
+With *… in full detail* (Mode options) the graphics card builds the height field from every point of the effect
+(256 × 256 instead of the original 64 × 64) and draws it at the full size of the panel instead of 640 × 480 – the
+flames and waves become a fine relief. Without a GPU it stays as in the original.
 
 ### Cthugha-L
 
@@ -83,6 +87,9 @@ size follows the loudness and whose colour follows the pitch.
 - All controls are also accessible via the right-click menu and the preferences. *Reset to the manual's settings* restores the
   controls to the setup recommended in the original owner's manual.
 - Uses the *TV* CRT filter by default for an authentic television look.
+- Optional *Fill the panel* (Atari Video Music preferences): in panels wider or taller than 4:3 the pattern simply
+  continues across the extra space, like on a bigger screen, instead of leaving black bars. The diamonds keep their
+  shape; the real device only had 4:3.
 
 Thanks to Robert J. Brown for being a true pioneer in music visualisation and bringing this into living rooms back in 1977!
 
@@ -137,17 +144,23 @@ of side A the cassette is turned over.
   and the occasional wobbly winding. Press Space for the next type and P for the colours. Titles in other scripts
   (Chinese, Japanese, Korean, Cyrillic …) are written with the fonts of your system.
 - **Bought cassettes from the album cover:** Album Print, Album Tracklist, Album Tint and Album Art are printed in
-  the colours or with the picture of the cover, with artist, album, year and the titles of the side.
+  the colours or with the picture of the cover, with artist, album, year and the titles of the side – Album Art
+  *Painted* even covers the window and the reel holes. Before anything plays, the cassette of the selected track is shown.
 ![Tape decks](docs/screenshots/readme/tape-decks.jpg)\
 *All currently included tape decks from the 70s to the 90s. Some are available in several colors / finishes.*
 
 - **Tape decks:** a 70s three-head deck, an 80s studio deck with real-time counter, locator and loop, an 80s
-  ghetto blaster, an 80s East German radio recorder, a 90s closed-loop deck and a 90s three-head deck. Their
+  ghetto blaster, an 80s East German radio recorder, an 80s auto-reverse deck that turns the cassette over in its
+  rotating holder, a 90s closed-loop deck and a 90s three-head deck. Their
   buttons, switches and knobs work: play, pause, stop, rewind and fast forward control the player, the volume and
   balance knobs follow it, counters can be reset and memories set. Press W for the next deck, F for its finish and
   F2 for a short description of what it can do.
 - *Preferences → Mode options → Tape*: cassette, colours, deck, how the sides are filled and the colour of digital
   counters.
+- **Sides:** like recording your own tape, blank cassettes fill side A first – a short album or mix may leave side B
+  blank (its label stays empty, the status line says "blank"). Bought cassettes spread the tracks evenly over both
+  sides, like a pre-recorded tape. Tracks without an album tag form a mix tape with their neighbours without album
+  tag. *Sides* in the preferences can set one way for all cassettes.
 
 ### Credits
 
@@ -159,10 +172,10 @@ screen, the background smoothly crossfades to that exact mode or tracker.
 
 ## Requirements
 
-- foobar2000 2.0 or newer, 64-bit or 32-bit
-- or Winamp 5.x / WACUP, 32-bit (64-bit WACUP does not support third-party plug-ins yet)
-- or AIMP 5.x, 64-bit or 32-bit (also runs with the AIMP 6 beta)
-- Windows 10 or 11
+- foobar2000 2.0 or newer, 64-bit or 32-bit, on Windows 10 or 11
+- or foobar2000 for Mac 2.x on macOS 12 or newer (Apple silicon and Intel)
+- or Winamp 5.x / WACUP, 32-bit (64-bit WACUP does not support third-party plug-ins yet), on Windows
+- or AIMP 5.x, 64-bit or 32-bit (also runs with the AIMP 6 beta), on Windows
 
 ## Installation
 
@@ -173,6 +186,27 @@ screen, the background smoothly crossfades to that exact mode or tracker.
      Visualisation → Fomalhaut*.
    - **Columns UI:** *Preferences → Columns UI → Layout*, and add *Fomalhaut* (under *Visualisations*).
 4. Right-click the panel, pick a mode under *Mode*, put on some music and enjoy.
+
+## macOS
+
+The same `foo_fomalhaut-<version>.fb2k-component` contains the Mac version as well (since 1.4.0), with all modes and
+the same features as on Windows. The picture and the CRT filter are drawn on the GPU (Metal; on Windows Direct3D 11,
+with a fallback to GDI where there is no graphics driver, e.g. via Remote Desktop).
+
+1. In foobar2000 for Mac, go to *Preferences → Components*, click *+*, choose the downloaded file, and restart
+   foobar2000.
+2. Add the panel to your layout: *View → Layout → Edit Layout* opens the layout as text; add a line `fomalhaut`
+   where the panel should go. Options on the same line:
+   - `mode=<id>`: the mode the panel starts with – `cthugha.dos53`, `cthugha.98`, `cthugha.linux`, `cthugha.winamp`,
+     `atari.videomusic`, `tracker`, `vsg.vga`, `tape.cassette`, `credits`, `mix`.
+   - `id=<name>`: the panel remembers its mode under this name. Panels without an id share one mode (the Mac layout
+     is plain text, so the component cannot store the mode in it as on Windows).
+3. Right-click the panel and pick a mode, as on Windows.
+
+Differences on the Mac: fullscreen is ⌃⌘F (F11 belongs to macOS), the Delete key goes to the previous effect, and
+the settings are under *Preferences → Display → Fomalhaut*. Fullscreen across several screens needs *Displays have
+separate Spaces* switched off (*System Settings → Desktop & Dock → Mission Control*, then log out and in again);
+otherwise macOS shows the window on one screen only.
 
 ## Winamp and WACUP
 
@@ -228,8 +262,8 @@ over a button (bottom).*
 | Action | Effect |
 |---|---|
 | Click, Space | Next effect (clicking an inactive panel simply gives it keyboard focus first; click switching can be toggled via "Click changes effect") |
-| Backspace | Previous effect |
-| Middle click, F11 | Toggle fullscreen (Esc to exit) |
+| Backspace (Mac: Delete) | Previous effect |
+| Middle click, F11 (Mac: ⌃⌘F) | Toggle fullscreen (Esc to exit) |
 | Hover at the top | Slides in the control bar: mode, previous / next, lock, effect names, palette, presets, CRT filter, screenshot, fullscreen, preferences; Cthugha modes also get a second row for flame, wave, display, palette … (matching the hotkeys) plus Cthugha98's 3dfx view |
 | Right click | Opens the context menu: next / previous effect, lock, fullscreen, screenshot, mode, palette (pick from list), presets, CRT filter, options |
 | f / w / d / p | Next flame / wave / display / palette (also resets the timer for the next automatic change) |
@@ -246,7 +280,7 @@ over a button (bottom).*
 **Screenshot** (via the right-click menu or control bar): grabs a clean PNG at the exact panel resolution, free of
 menus, bars or effect names. Screenshots are saved with sequential numbers to your last-used folder (*Fomalhaut 001.png*,
 *Fomalhaut 002.png* …); *Save screenshot as…* lets you pick a folder and file name (and always pops up on your very first screenshot, starting
-in the program folder).
+in the program folder; on the Mac in *Pictures*).
 
 **Presets:** press i to save the currently running effect; the *Presets* submenu in the right-click menu lists all saved presets for the active mode. Just like
 Cthugha's original `CTHUGHA.INI`, the Cthugha modes weave your presets into automatic transitions — showing up in 2 out of 3 changes by
@@ -257,13 +291,20 @@ default, never, always, or at a custom percentage of your choice, either randoml
 ![Preferences](docs/screenshots/readme/preferences.png)\
 *The main page, "Modes" and "Mode options" (subpages "Atari Video Music" and "Presets" not shown).*
 
-*Preferences → Visualisations → Fomalhaut*:
+*Preferences → Visualisations → Fomalhaut* (Mac: *Preferences → Display → Fomalhaut*):
 
 - Automatic input level (enabled by default): the original programs expected a lively sound card signal; this gently boosts quieter modern
   tracks to a similar level while keeping silence silent. If the visuals ever feel a bit too intense, simply switch it off.
 - Effect names, pictures, click-to-change-effect, fullscreen monitor selection, and song title display (shown during the first few seconds of a track or
   permanently, with customisable formatting and placement).
 - Top control bar (enabled by default): slides into view whenever the mouse moves into the upper quarter of the panel.
+- Drawing with Direct3D (default; off for old graphics drivers), the realistic CRT filter with its strength and
+  geometry (curvature, corners, vignette, convergence), and *Background*: let dark parts or only black show the
+  layout behind the panel, with adjustable opacity (Columns UI with JSplitter: set `SupportPseudoTransparency = true`
+  on the panel).
+
+**Desktop mode** (right-click menu): the visualisation runs behind your desktop icons, as large as fullscreen; a click
+into the panel brings it back.
 
 *Preferences → Visualisations → Fomalhaut → Mode options*: configure Cthugha98's 3dfx view, Cthugha-L's output height and
 flashlight, Cthugha-4-Winamp's palettes, title text and 3D intro, tracker tempo and playback order, and for the Compact
@@ -276,7 +317,8 @@ new panels start with, and how the tracks are spread over the two sides.
 - **After beats**: switches after a set number of bass beats, with adjustable beat sensitivity. Note: may not suit every genre equally well.
 - **After seconds**: switches at a fixed time interval while music is playing.
 - **New song**: also triggers a fresh effect whenever a new track starts.
-- **CRT**: off, RGB monitor (crisp) or TV (softer colours). Defaults to TV for Atari Video Music and off for all other modes.
+- **CRT**: off, RGB monitor (crisp), TV (softer colours) or Studio (aperture grille, realistic filter only). Defaults to TV
+  for Atari Video Music and off for all other modes.
 
 *Preferences → Visualisations → Fomalhaut → Atari Video Music*: mirrors the buttons and knobs of the hardware front panel, plus an option
 to toggle the slide-in panel. Each panel maintains its own controls; the preferences dialog reflects and adjusts whichever
